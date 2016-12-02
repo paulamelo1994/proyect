@@ -19,6 +19,11 @@ class Paciente {
 		string setNombre();
 		string setSexo();
 		int setEdad();
+
+		int getCedula();
+		string getNombre();
+		string getSexo();
+		int getEdad();
 };
 
 #endif
