@@ -16,15 +16,15 @@ public:
 	Historia(afeccion,descripcionA,citas,dia,descripcionC,medicamentos,dosis);
 	~Historia();
 
-	string getAfeccion();
-	string getDescripcionA();
+	void setAfeccion();
+	void setDescripcionA();
 
-	string getCitas();
-	string getDia();
-	string getDescripcionC();
+	void setCitas();
+	void setDia();
+	void setDescripcionC();
 
-	string getMedicamento();
-	string getNumDosis();
+	void setMedicamento();
+	void setNumDosis();
 
 	
 };

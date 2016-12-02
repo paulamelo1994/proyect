@@ -6,27 +6,32 @@ Historia::Historia()
 Historia::~Historia(){
 }
 
-string setAfeccion(afeccion)
+void setAfeccion(afeccion)
 {
-	return afeccion;
+	this->afeccion=afeccion;
 }
-string setDescripcionA(descripcionA)
+void setDescripcionA(descripcionA)
 {
-	return descripcionA;
+	this->descripcionA=descripcionA;
+}
+void setCitas(citas)
+{
+	this->citas=citas;
+}
+void setDia(dia)
+{
+	this->dia=dia;
+}
+void setDescripcionC(descripcionC)
+{
+	this->descripcionC=descripcionC;
 }
 
-string setCitas(citas)
+void setMedicamento(medicamentos)
 {
-	return citas;
+	this->medicamentos=medicamentos;
 }
-string setDia(dia)
+void setNumDosis(numDosis)
 {
-	return dia;
+	this->numDosis=numDosis;
 }
-string setDescripcionC(setDescripcionC)
-{
-	return setDescripcionC;
-}
-
-string setMedicamento();
-string setNumDosis();
