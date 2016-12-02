@@ -9,15 +9,16 @@ Paciente::Paciente(cedula, nombre, sexo, edad){
 Paciente::~Paciente(){
 }
 
-int Paciente::getCedula(){
+int Paciente::setCedula(){
+	this->cedula=cedula;
+}
+string Paciente::setNombre(){
+	this->nombre=nombre;
 
 }
-string Paciente::getNombre(){
-
+string Paciente::setSexo(){
+	this->sexo=sexo;
 }
-string Paciente::getSexo(){
-
-}
-int Paciente::getEdad(){
-
+int Paciente::setEdad(){
+	this->edad=edad;
 }
