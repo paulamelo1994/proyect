@@ -15,6 +15,11 @@ class Paciente {
 	public
 		Paciente (cedula, nombre, sexo, edad);
 		~Paciente ();
+		int setCedula();
+		string setNombre();
+		string setSexo();
+		int setEdad();
+
 		int getCedula();
 		string getNombre();
 		string getSexo();
