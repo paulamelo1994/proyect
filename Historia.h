@@ -15,16 +15,26 @@ private:
 public:
 	Historia(afeccion,descripcionA,citas,dia,descripcionC,medicamentos,dosis);
 	~Historia();
+	//metodos set
+	void setAfeccion(afeccion);
+	void setDescripcionA(descripcionA);
 
-	void setAfeccion();
-	void setDescripcionA();
+	void setCitas(citas);
+	void setDia(dia);
+	void setDescripcionC(descripcionC);
 
-	void setCitas();
-	void setDia();
-	void setDescripcionC();
+	void setMedicamento(medicamentos);
+	void setNumDosis(dosis);
+	//Metodos get
+	string getAfeccion();
+	string getDescripcionA();
 
-	void setMedicamento();
-	void setNumDosis();
+	string getCitas();
+	string getDia();
+	string getDescripcionC();
+
+	string getMedicamento();
+	string getNumDosis();
 
 	
 };

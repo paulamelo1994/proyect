@@ -35,3 +35,32 @@ void setNumDosis(numDosis)
 {
 	this->numDosis=numDosis;
 }
+
+string getAfeccion()
+{
+	return afeccion;
+}
+string getDescripcionA()
+{
+	return descripcionA;
+}
+string getCitas()
+{
+	return citas;
+}
+string getDia()
+{
+	return dia;
+}
+string getDescripcionC()
+{
+	return descripcionC;
+}
+string getMedicamento()
+{
+	return medicamentos;
+}
+string getNumDosis()
+{
+	return numDosis;
+}
