@@ -10,6 +10,7 @@ class Paciente {
 		string nombre;
 		string sexo;
 		int edad;
+		
 
 	public
 		Paciente (cedula, nombre, sexo, edad);
