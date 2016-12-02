@@ -10,15 +10,15 @@ Paciente::~Paciente(){
 }
 
 int Paciente::setCedula(){
-	this->setCedula(cedula);
+	this->cedula=cedula;
 }
 string Paciente::setNombre(){
-	this->setNombre(nombre);
+	this->nombre=nombre;
 
 }
 string Paciente::setSexo(){
-	this->setSexo(sexo);
+	this->sexo=sexo;
 }
 int Paciente::setEdad(){
-	this->setEdad(edad);
+	this->edad=edad;
 }
