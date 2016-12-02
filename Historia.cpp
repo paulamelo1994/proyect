@@ -1,27 +1,32 @@
 #include "Historia.h"
 
-Historia::Historia(afeccion,descripcionA,citas,dia,descripcionC,medicamentos,dosis)
+Historia::Historia()
 {
-	this->afeccion=afeccion;
-	this->descripcionA=descripcionA;
-
-	this->citas=citas;
-	this->dia=dia;
-	this->descripcionC=descripcionC;
-
-	this->medicamentos=medicamentos;
-	this->dosis=dosis;
-}
 
 Historia::~Historia(){
 }
 
-string getAfeccion();
-string getDescripcionA();
+string setAfeccion(afeccion)
+{
+	return afeccion;
+}
+string setDescripcionA(descripcionA)
+{
+	return descripcionA;
+}
 
-string getCitas();
-string getDia();
-string getDescripcionC();
+string setCitas(citas)
+{
+	return citas;
+}
+string setDia(dia)
+{
+	return dia;
+}
+string setDescripcionC(setDescripcionC)
+{
+	return setDescripcionC;
+}
 
-string getMedicamento();
-string getNumDosis();
+string setMedicamento();
+string setNumDosis();
